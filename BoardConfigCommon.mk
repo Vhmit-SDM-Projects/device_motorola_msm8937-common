@@ -133,6 +133,10 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab_legacy.qcom
 else
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 endif
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_motorola
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
