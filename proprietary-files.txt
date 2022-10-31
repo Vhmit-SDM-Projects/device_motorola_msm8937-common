@@ -67,7 +67,6 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so|b72b6bc0f79ef8289f4b543910e7e2d919618
 
 # Camera
 vendor/bin/mm-qcamera-daemon
-vendor/lib/hw/camera.msm8953.so:vendor/lib/hw/camera.msm8937.so|533198568f463760412de847d742d1fb41ae8f8e
 vendor/lib/lib_mot_app6_metadata.so
 vendor/lib/lib_mot_led_calibration.so
 vendor/lib/lib_motsensorlistener.so
@@ -85,7 +84,6 @@ vendor/lib/libmmcamera_facedetection_lib.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_llvd.so
 vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_paaf_lib.so
@@ -118,7 +116,6 @@ vendor/lib/libmmcamera2_sensor_modules.so|92e6e1a4527c44b809d7a4d76d3775a2ad121f
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmot_gpu_mapper.so|9f4d96542314976a8384f686a2a4c49d321999fe
