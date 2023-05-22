@@ -164,6 +164,9 @@ vendor/lib64/libets_teeclient.so
 
 # Gatekeeper
 vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|3125e1bad9e8231df1628d909ba514b250835a7d
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GPS
 vendor/bin/garden_app
