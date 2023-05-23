@@ -65,7 +65,6 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so|b72b6bc0f79ef8289f4b543910e7e2d919618
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-
 # Camera
 vendor/lib/libllvd_smore.so|9aae0936cfb6cb11dabd12eab73111b0
 
@@ -320,6 +319,36 @@ vendor/lib64/vendor.qti.imsrtpservice@2.1.so
 
 # IMS - from daisy - QKQ1.191002.002 V11.0.21.0.QDLMIXM
 -product/priv-app/ims/ims.apk:system_ext/priv-app/ims/ims.apk|9c4ca91e0ec7a567d22251d7ca0640abf13fdd7b
+
+# Fingerprint - from aljeter
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc
+vendor/etc/init/init.ets.rc
+vendor/lib64/libets_fp_et5.so
+vendor/lib64/libets_teeclient.so
+
+# Gatekeeper - from aljeter
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+
+# Keymaster - from aljeter
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
+
+# Sensors - from aljeter
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+vendor/lib/sensor_calibrate.so
+vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
+vendor/lib64/libsensor1.so
+vendor/lib64/libsensor_reg.so
+vendor/lib64/sensor_calibrate.so
+vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # IOP - from X00RD - QKQ1.191002.002-17.07.2003.405-20200330
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|c16cde136194fd07c75aaadb6be5a0dbd8b315a4
