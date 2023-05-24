@@ -42,7 +42,7 @@ static const device_t devices[] = {
     {"james", "moto e5 play"},
     {"montana", "moto g5s"},
     {"rhannah", "moto e5 plus"},
-    {"jeter", "moto g6 play"},
+    {"aljeter", "Moto G6 Play"},
 };
 
 static inline const char *BtmGetDefaultName()
