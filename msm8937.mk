@@ -204,10 +204,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
 
 # MotoActions
-ifeq ($(filter %ahannah %rhannah,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
     MotoActions
-endif
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -342,7 +340,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
-    android.hardware.sensors@1.0-service \
+    android.hardware.sensors@1.0-service
 
 # Shims
 PRODUCT_PACKAGES += \
